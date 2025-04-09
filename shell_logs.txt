@@ -1,0 +1,500 @@
+   10  make debug
+   11  gdb ./runner
+   12  make clean
+   13  make debug
+   14  gdb ./runner
+   15  make clean
+   16  make debug
+   17  gdb ./runner
+   18  make clean
+   19  make debug
+   20  gdb ./runner
+   21  make clean
+   22  make debug
+   23  make clen
+   24  make clean
+   25  make debug
+   26  gdb ./runner
+   27  make clean
+   28  make debug
+   29  gdb ./runner
+   30  make clean
+   31  make debug
+   32  gdb ./runner
+   33  make clean
+   34  make debug
+   35  gdb ./runner
+   36  make clean
+   37  make debug
+   38  python3 driver.py
+   39  python3 driver.py
+   40  make clean
+   41  make debug
+   42  python3 driver.py
+   43  python3 driver.py
+   44  make clean
+   45  make debug
+   46  python3 driver.py
+   47  python3 driver
+   48  python3 driver.py
+   49  python3 driver.py
+   50  git push
+   51  make clean
+   52  make debug
+   53  gdb testcases/week2/add.s
+   54  make clean
+   55  make debug
+   56  gdb testcases/week2/add.s
+   57  make clean
+   58  make debug
+   59  gdb testcases/week2/add.s
+   60  make clean
+   61  make debug
+   62  gdb 
+   63  q
+   64  make clean
+   65  make debug
+   66  run gdb
+   67  q
+   68  q
+   69  make clean
+   70  make debug
+   71  gdb testcases/week2/add.s
+   72  make clean
+   73  make debug
+   74  gdb testcases/week2/add.s
+   75  make clean
+   76  make debug
+   77  gdb -args 
+   78  gdb -args bin/ci -i add.s
+   79  make clean
+   80  make debug
+   81  gdb --args bin/ci -i add.s
+   82  make clean
+   83  make debug
+   84  gdb testcases/week2
+   85  make clean
+   86  make debug
+   87  gdb --args bin/ci -i testcases/week2/add.s
+   88  make clean
+   89  make debug
+   90  make clean
+   91  make all
+   92  q
+   93  make clean
+   94  make 
+   95  make all
+   96  code ~/.gdbinit
+   97  make clean
+   98  bin/a.out -t short1.rep
+   99  bin/a.out -t testcases/short1.rep
+  100  make clean
+  101  make debug
+  102  run gdb testcases
+  103  run gdb
+  104  gdb
+  105  make clean
+  106  bin/a.out -t testcases/short1.rep
+  107  run bin/a.out -t testcases/short1.rep
+  108  make clean
+  109  make all
+  110  check
+  111  make clean
+  112  make check
+  113  make clean
+  114  make debug
+  115  gdb --args bin/a.out -t testcases/short1.rep
+  116  make clean
+  117  make debug
+  118  gdb --args bin/a.out -t testcases/short1.rep
+  119  make clean
+  120  make debug
+  121  gdb --args bin/a.out -t testcases/short1.rep
+  122  make clean
+  123  make debug
+  124  gdb --args bin/a.out -t testcases/short1.rep
+  125  make clean
+  126  make debug
+  127  gdb --args bin/a.out -t testcases/short1.rep
+  128  make clean
+  129  make debug
+  130  gdb --args bin/a.out -t testcases/short1.rep
+  131  make clean
+  132  make debug
+  133  gdb --args bin/a.out -t testcases/short1.rep
+  134  make clean
+  135  make debug
+  136  gdb --args bin/a.out -t testcases/short1.rep
+  137  git commit
+  138  git commit -a
+  139  git push
+  140  git commit
+  141  git add
+  142  git add .
+  143  git commit
+  144  git add .
+  145  git commit
+  146  git add .
+  147  git push
+  148  make clean
+  149  make all
+  150  make
+  151  cd ..
+  152  rm -rf ./shared-repo-version-f-am429
+  153  ls
+  154  cd shared-repo-version-f-am429-1/
+  155  ls
+  156  cd ..
+  157  rm -rf ./shared-repo-version-f-am429-1/
+  158  ls
+  159  make clean
+  160  make all
+  161  make
+  162  make clean
+  163  make
+  164  git add .
+  165  git commit -m "cond_holds"
+  166  git push
+  167  make clean
+  168  make
+  169  chmod
+  170  chmod --hel[
+  171  chmod --help
+  172  git add .
+  173  git commit -m "alu"
+  174  git push
+  175  git pull
+  176  git pull
+  177  git stash
+  178  git pull
+  179  make clean
+  180  make
+  181  bin/test-hw
+  182  make clean
+  183  make
+  184  bin/test-hw
+  185  make clean
+  186  make
+  187  bin/test-hw
+  188  make clean
+  189  make
+  190  bin/test-hw
+  191  bin/test-hw -v2
+  192  make clean
+  193  make
+  194  bin/test-hw
+  195  git add .
+  196  git commit -m "DONEEEE"
+  197  git push
+  198  git pull
+  199  git pull
+  200  git stash
+  201  git pull
+  202  git pull
+  203  git pull
+  204  git stash
+  205  git pull
+  206  git push
+  207  git add .
+  208  git commit
+  209  git add .
+  210  git commit -m "fiona is silly"
+  211  git push
+  212  git add .
+  213  git commit -m "fetch_instr"
+  214  git push
+  215  touch ~/.gdbinit
+  216  echo "set history save on" > ~/.gdbinit
+  217  cat ~/.gdbinit
+  218  ls
+  219  make clean
+  220  make
+  221  ./mini_ci
+  222  ./mini_ci testcases/basic_add.s
+  223  make clean
+  224  make debug
+  225  gdb mini_ci
+  226  make check
+  227  make clean
+  228  make 
+  229  ./mini_ci testcases/err_ops.s
+  230  make debug
+  231  make clean
+  232  make debug
+  233  gdb ./mini_ci
+  234  make clean
+  235  make debug
+  236  gdb ./mini_ci
+  237  make clea
+  238  make clean
+  239  make debug
+  240  gdb testcases/err_ops.s
+  241  make clean
+  242  make
+  243  make debug
+  244  make clean
+  245  make debug
+  246  gdb testcases/err_ops.s
+  247  make clean
+  248  make debug
+  249  gdb ./mini_ci
+  250  make
+  251  make clean
+  252  make clean
+  253  make debug
+  254  gdb ./mini_ci
+  255  make check
+  256  make clean
+  257  make debug
+  258  gdb ./mini_ci
+  259  make clean
+  260  make
+  261  ./mini_ci_reference testcases/err_ops2.s
+  262  make check
+  263  make clean
+  264  make debug
+  265  gdb ./mini_ci
+  266  make clean
+  267  make
+  268  make check
+  269  make clean
+  270  make debug
+  271  gdb ./mini_ci
+  272  make clean
+  273  make
+  274  make check
+  275  history
+  276  history > logs.txt
+  277  make clean
+  278  make debug
+  279  gdb
+  280  git add .
+  281  git commit -m "done!"
+  282  git push
+  283  make clean
+  284  ssh-keygen
+  285  ssh-keygen -t ed25519
+  286  cat /u/am429/.ssh/id_ed25519.pub
+  287  touch ~./gdbinit
+  288  touch ~/.gdbinit
+  289  echo "set history save on" > ~/.gdbinit
+  290  cat ~/.gdbinit
+  291  make clean
+  292  make
+  293  run 
+  294  ./mini_ci
+  295  ./mini_ci testcases/basic_add.s
+  296  make check
+  297  make clean
+  298  make debug
+  299  gdb ./mini_ci
+  300  make clean
+  301  make check
+  302  q
+  303  make clean
+  304  make check
+  305  make clean
+  306  make check
+  307  make clean
+  308  make check
+  309  make debug
+  310  make clean
+  311  make 
+  312  make check
+  313  make debug
+  314  make clean
+  315  make debug
+  316  gdb ./mini_ci
+  317  make clean
+  318  make
+  319  make check
+  320  make clean
+  321  make 
+  322  make check
+  323  make clean
+  324  make
+  325  make check
+  326  make clean
+  327  make debug
+  328  gdb ./mini_ci
+  329  make clean
+  330  make 
+  331  make check
+  332  make clean
+  333  make 
+  334  make debug
+  335  make clean
+  336  make debug
+  337  gdb ./mini_ci
+  338  make clean
+  339  make debug
+  340  gdb ./mini_ci
+  341  make clean
+  342  make debug
+  343  gdb ./mini_ci
+  344  make clean
+  345  make check
+  346  make clean
+  347  make clean
+  348  make debug
+  349  gdb ./mini_ci
+  350  make clean
+  351  make debug
+  352  gdb ./mini_ci
+  353  make clean
+  354  make debug
+  355  gdb ./mini_ci
+  356  touch ~/.gdbinit
+  357  echo "set history save on" > ~/.gdbinit
+  358  make clean
+  359  make
+  360  make debug
+  361  make clean
+  362  make debug
+  363  gdb ./mini_ci
+  364  make clean
+  365  make check
+  366  make clean
+  367  make debug
+  368  gdb ./mini_ci
+  369  make clean
+  370  make check
+  371  make clean
+  372  make debug
+  373  gdb ./mini_ci
+  374  ./mini_ci_reference testcases/multi_op.s
+  375  make clean
+  376  make debug
+  377  gdb ./mini_ci
+  378  make clean
+  379  make check
+  380  make clean
+  381  make check
+  382  make debug
+  383  make clean
+  384  make debug
+  385  gdb ./mini_ci
+  386  ./mini_ci_reference testcases/multi_op.s
+  387  make clean
+  388  make debug
+  389  gdb ./mini_ci
+  390  make clean
+  391  make debug
+  392  gdb ./mini_ci
+  393  make clean
+  394  make debug
+  395  gdb ./mini_ci
+  396  make clean
+  397  make check
+  398  make clean
+  399  make check
+  400  make clean
+  401  make 
+  402  make clean
+  403  make debug
+  404  gdb ./mini_ci
+  405  git add .
+  406  git commit -m "fetch"
+  407  git push
+  408  git add .
+  409  git commit -m "writeback"
+  410  git push
+  411  git add .
+  412  git commit -m "decide alu"
+  413  git push
+  414  git pull
+  415  git pull
+  416  git stash
+  417  git pull
+  418  git pull
+  419  git add .
+  420  git commit -m "comments"
+  421  git push
+  422  make clean
+  423  make check
+  424  make clean
+  425  make debug
+  426  gdb ./mini_ci
+  427  make clean
+  428  make check
+  429  make clean
+  430  make debug
+  431  gdb ./mini_ci
+  432  make clean
+  433  make debug
+  434  gdb ./mini_ci
+  435  make clean
+  436  make check
+  437  history
+  438  history > shell_logs.txt
+  439  make clean
+  440  make debug
+  441  show commands
+  442  make clean
+  443  make debug
+  444  gdb
+  445  touch gdb_logs.txt
+  446  git add .
+  447  git commit -m "done"
+  448  git push
+  449  ~ /.gdbinit
+  450  touch ~/.gdbinit
+  451  echo "set save history on" > ~/.gdbinit
+  452  make clean
+  453  make check
+  454  make clean
+  455  make debug
+  456  gdb ./mini_ci
+  457  make clean
+  458  make check
+  459  make clean
+  460  make check
+  461  make clean
+  462  make debug
+  463  gdb ./mini_ci
+  464  ./mini_ci_reference testcases/multi_op.s
+  465  make clean
+  466  make debug
+  467  gdb ./mini_ci
+  468  make clean
+  469  make check
+  470  make clean
+  471  make debug
+  472  make clean
+  473  make debug
+  474  gdb ./mini_ci
+  475  make clean
+  476  make check
+  477  make clean
+  478  make check
+  479  make clean
+  480  make check
+  481  make clean
+  482  make check
+  483  make clean
+  484  make check
+  485  make clean
+  486  make check
+  487  make clean
+  488  make check
+  489  make clean
+  490  make check
+  491  history > shell_logs.txt
+  492  make clean
+  493  make debug
+  494  gdb
+  495  touch gdb_logs.txt
+  496  git add .
+  497  git commit -m "Done!"
+  498  git push
+  499  touch ~/.gdbinit
+  500  echo "set save history on" > ~/.gdbinit
+  501  make clean
+  502  make check
+  503  make clean
+  504  make debug
+  505  gdb ./mini_ci
+  506  make clean
+  507  make check
+  508  history
+  509  history > shell_logs.txt
